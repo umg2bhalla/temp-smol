@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dark-mode {
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+.light-mode {
+    background-color: #f7fafc;
+    color: #2d3748;
+}
+
+#darkModeSwitch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.company-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: #9f7aea;
+}
+
+.active {
+    border-bottom: 2px solid #9f7aea;
+}
